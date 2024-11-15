@@ -10,14 +10,14 @@ export default function Footer() {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <Mountain className="h-8 w-8 text-emerald-500" />
-              <span className="font-bold text-xl">UttarakhandTreks</span>
+              <span className="font-bold text-xl">MounTrip</span>
             </div>
             <p className="text-gray-400">
               Discover the beauty of the Himalayas with our expert-guided treks and tours.
             </p>
             <div className="flex space-x-4">
               <SocialLink href="#" icon={<Facebook className="h-5 w-5" />} />
-              <SocialLink href="#" icon={<Instagram className="h-5 w-5" />} />
+              <SocialLink href="https://www.instagram.com/mountrip.in?igsh=cjc5em9kazFxc2Z1" icon={<Instagram className="h-5 w-5" />} />
               <SocialLink href="#" icon={<Twitter className="h-5 w-5" />} />
             </div>
           </div>
@@ -52,10 +52,10 @@ export default function Footer() {
                 +91 98765 43210
               </ContactInfo>
               <ContactInfo icon={<Mail className="h-5 w-5" />}>
-                info@uttarakhandtreks.com
+                info@mountrip.in
               </ContactInfo>
               <ContactInfo icon={<MapPin className="h-5 w-5" />}>
-                123 Mountain View, Dehradun, Uttarakhand, India
+                 Mountain View, Dehradun, Uttarakhand, India
               </ContactInfo>
             </div>
           </div>
@@ -63,7 +63,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400">
-          <p>© {new Date().getFullYear()} UttarakhandTreks. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} MounTrip. All rights reserved.</p>
         </div>
       </div>
     </footer>
