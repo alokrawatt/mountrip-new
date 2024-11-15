@@ -52,7 +52,7 @@ export default function Footer() {
                 +91 98765 43210
               </ContactInfo>
               <ContactInfo icon={<Mail className="h-5 w-5" />}>
-                info@uttarakhandtreks.com
+                info@mountrip.in
               </ContactInfo>
               <ContactInfo icon={<MapPin className="h-5 w-5" />}>
                  Mountain View, Dehradun, Uttarakhand, India
