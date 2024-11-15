@@ -55,7 +55,7 @@ export default function Footer() {
                 info@uttarakhandtreks.com
               </ContactInfo>
               <ContactInfo icon={<MapPin className="h-5 w-5" />}>
-                123 Mountain View, Dehradun, Uttarakhand, India
+                 Mountain View, Dehradun, Uttarakhand, India
               </ContactInfo>
             </div>
           </div>
@@ -63,7 +63,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400">
-          <p>© {new Date().getFullYear()} UttarakhandTreks. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} MounTrip. All rights reserved.</p>
         </div>
       </div>
     </footer>
