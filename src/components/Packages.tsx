@@ -1,5 +1,6 @@
 // import React from 'react';
 import PackageCard from './PackageCard';
+import { Helmet } from 'react-helmet';
 
 const packages = [
   {
@@ -48,23 +49,34 @@ const packages = [
 
 export default function Packages() {
   return (
-    <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
-      <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Our Featured Expeditions
-          </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Choose from our carefully curated selection of trekking adventures
-          </p>
+    <>
+      <Helmet>
+        <title>MounTrek - Trek the Majestic Heights of Uttarakhand</title>
+        <meta name="description" content="Explore our curated selection of trekking adventures, including the Valley of Flowers Trek, Kedarkantha Summit, and Nanda Devi Base Camp." />
+        <meta name="keywords" content="trekking, adventures, Valley of Flowers, Kedarkantha, Nanda Devi" />
+        <meta property="og:title" content="Our Featured Expeditions" />
+        <meta property="og:description" content="Choose from our carefully curated selection of trekking adventures." />
+        <meta property="og:image" content="https://example.com/image.jpg" />
+        <meta property="og:url" content="https://example.com/packages" />
+      </Helmet>
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Our Featured Expeditions
+            </h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Choose from our carefully curated selection of trekking adventures
+            </p>
+          </div>
+          
+          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+            {packages.map((pkg) => (
+              <PackageCard key={pkg.id} pkg={pkg} />
+            ))}
+          </div>
         </div>
-        
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-          {packages.map((pkg) => (
-            <PackageCard key={pkg.id} pkg={pkg} />
-          ))}
-        </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 }
