@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { ChevronDown, ChevronUp, Calendar, Clock, Users, Mountain } from 'lucide-react';
+import { ChevronDown, ChevronUp, Clock, Users, Mountain } from 'lucide-react';
 import { Package } from '../data/packages';
 
 interface PackageCardProps {
