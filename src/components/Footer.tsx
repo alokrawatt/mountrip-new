@@ -10,14 +10,14 @@ export default function Footer() {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <Mountain className="h-8 w-8 text-emerald-500" />
-              <span className="font-bold text-xl">UttarakhandTreks</span>
+              <span className="font-bold text-xl">MounTrip</span>
             </div>
             <p className="text-gray-400">
               Discover the beauty of the Himalayas with our expert-guided treks and tours.
             </p>
             <div className="flex space-x-4">
               <SocialLink href="#" icon={<Facebook className="h-5 w-5" />} />
-              <SocialLink href="#" icon={<Instagram className="h-5 w-5" />} />
+              <SocialLink href="https://www.instagram.com/mountrip.in?igsh=cjc5em9kazFxc2Z1" icon={<Instagram className="h-5 w-5" />} />
               <SocialLink href="#" icon={<Twitter className="h-5 w-5" />} />
             </div>
           </div>
