@@ -43,7 +43,7 @@ export const packages: Package[] = [
     elevation: "14,400 ft",
     distance: "37 km",
     images: [
-      "https://images.unsplash.com/photo-1626094309830-abbb0c99da4a?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1658939061463-105935bf38cc?auto=format&fit=crop&q=80",
       "https://images.unsplash.com/photo-1589182373726-e4f658ab50f0?auto=format&fit=crop&q=80",
       "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?auto=format&fit=crop&q=80"
     ],
