@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Mountain } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
+import logo from '/src/components/logo.png';
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,7 +22,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <Mountain className={`h-8 w-8 ${isScrolled ? 'text-emerald-600' : 'text-white'}`} />
+            <img src={logo} alt="Logo" className={`h-8 w-8 ${isScrolled ? 'text-emerald-600' : 'text-white'}`} />
             <span className={`font-bold text-xl ${isScrolled ? 'text-gray-900' : 'text-white'}`}>
               MountTrip
             </span>
@@ -38,7 +39,7 @@ export default function Navbar() {
                 ? 'bg-emerald-600 text-white hover:bg-emerald-700' 
                 : 'bg-white text-gray-900 hover:bg-gray-100'
             }`}>
-              Book Now
+              Enquire Now
             </button>
           </div>
 
@@ -64,7 +65,7 @@ export default function Navbar() {
             <MobileNavLink href="#about">About</MobileNavLink>
             <MobileNavLink href="#contact">Contact</MobileNavLink>
             <button className="w-full text-center px-6 py-3 bg-emerald-600 text-white rounded-full hover:bg-emerald-700 transition">
-              Book Now
+              Enquire Now
             </button>
           </div>
         </div>
