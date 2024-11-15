@@ -28,9 +28,11 @@ export default function Hero() {
         poster="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80"
       >
         <source 
-          src="https://player.vimeo.com/external/517090081.hd.mp4?s=50c2c0e6a7185d8b3ccd91d0a3534cf4bcb5a90d&profile_id=175"
+          src="https://videos.pexels.com/video-files/19956919/19956919-sd_640_360_30fps.mp4"
           type="video/mp4" 
         />
+        {/* Fallback for unsupported formats */}
+        Your browser does not support the video tag.
       </video>
 
       {/* Fallback Image (shown while video loads) */}
