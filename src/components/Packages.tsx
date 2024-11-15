@@ -56,8 +56,8 @@ export default function Packages() {
         <meta name="keywords" content="trekking, adventures, Valley of Flowers, Kedarkantha, Nanda Devi" />
         <meta property="og:title" content="Our Featured Expeditions" />
         <meta property="og:description" content="Choose from our carefully curated selection of trekking adventures." />
-        <meta property="og:image" content="https://example.com/image.jpg" />
-        <meta property="og:url" content="https://example.com/packages" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1585409677983-0f6c41ca9c3b?auto=format&fit=crop&q=80" />
+        <meta property="og:url" content="https://mountrek.in/" />
       </Helmet>
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-7xl mx-auto">
