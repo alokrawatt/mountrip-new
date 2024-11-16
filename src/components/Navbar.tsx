@@ -27,7 +27,7 @@ export default function Navbar() {
               <img src={logo} alt="Logo" className={`h-8 w-8 ${isScrolled ? 'text-emerald-600' : 'text-white'}`} />
             </Link>
             <span className={`font-bold text-xl ${isScrolled ? 'text-gray-900' : 'text-white'}`}>
-              MountTrip
+              MounTrip
             </span>
           </div>
 
