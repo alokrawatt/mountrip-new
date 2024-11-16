@@ -15,8 +15,8 @@ const Gallery = () => {
             <blockquote className="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DANmsBGvfk4/?igsh=MWF2eGIyNWE3bnNzOQ/" data-instgrm-version="12">
                 <a href="https://www.instagram.com/reel/DANmsBGvfk4/?igsh=MWF2eGIyNWE3bnNzOQ">View this post on Instagram</a>
             </blockquote>
-            <blockquote className="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/POST_ID_2/" data-instgrm-version="12">
-                <a href="https://www.instagram.com/p/POST_ID_2/">View this post on Instagram</a>
+            <blockquote className="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/C9up-KqPWUJ/?igsh=Nm05YTVhajczd3I5" data-instgrm-version="12">
+                <a href="https://www.instagram.com/reel/C9up-KqPWUJ/?igsh=Nm05YTVhajczd3I5">View this post on Instagram</a>
             </blockquote>
         </div>
     );

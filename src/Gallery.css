@@ -7,4 +7,13 @@
 .instagram-media {
     margin: 20px auto;
     max-width: 500px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Additional styles for responsiveness */
+@media (max-width: 600px) {
+    .instagram-media {
+        max-width: 100%;
+    }
 }
