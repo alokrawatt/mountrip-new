@@ -317,6 +317,104 @@ export const packages: Package[] = [
         price: "₹24,999"
       }
     ]
+  },
+  {
+    id: 4,
+    title: "Chandrashila via Deoria Lake",
+    description: "A scenic trek to the moon rock summit through pristine Deoria Lake and the spiritual town of Chopta.",
+    duration: "5 Days",
+    groupSize: "8-12 People",
+    difficulty: "Moderate",
+    price: "₹14,999",
+    elevation: "13,123 ft",
+    distance: "28 km",
+    images: [
+      "https://images.unsplash.com/photo-1465919292275-c60ba49da6ae?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1594475913503-d8c6488e1c0d?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1593592217848-f4cd2b17709c?auto=format&fit=crop&q=80"
+    ],
+    bestMonths: ["March", "April", "May", "October", "November"],
+    detailedDescription: "The Chandrashila trek via Deoria Lake is a unique blend of natural beauty and spiritual significance. Starting with the pristine Deoria Tal, continuing through the meadows of Chopta (Mini Switzerland of India), and culminating at the Chandrashila summit, this trek offers diverse landscapes and breathtaking views of major Himalayan peaks.",
+    highlights: [
+      "Sunrise view from Chandrashila summit",
+      "Pristine Deoria Lake surrounded by forests",
+      "Tungnath temple - highest Shiva temple",
+      "Chopta's beautiful meadows",
+      "360° views of major Himalayan peaks",
+      "Rich wildlife spotting opportunities"
+    ],
+    itinerary: [
+      {
+        day: 1,
+        title: "Arrival at Sari Village",
+        description: "Drive from Rishikesh to Sari. Evening acclimatization walk and briefing.",
+        elevation: "6,601 ft",
+        distance: "0 km"
+      },
+      {
+        day: 2,
+        title: "Trek to Deoria Tal",
+        description: "Short trek to the beautiful lake, evening exploration and camping by the lake.",
+        elevation: "7,999 ft",
+        distance: "3 km"
+      },
+      {
+        day: 3,
+        title: "Deoria Tal to Chopta",
+        description: "Trek through dense forests and meadows to reach Chopta.",
+        elevation: "9,600 ft",
+        distance: "12 km"
+      },
+      {
+        day: 4,
+        title: "Chopta to Chandrashila Summit via Tungnath",
+        description: "Early morning trek to Tungnath temple and summit climb for sunrise.",
+        elevation: "13,123 ft",
+        distance: "8 km"
+      },
+      {
+        day: 5,
+        title: "Chopta to Rishikesh",
+        description: "Return drive to Rishikesh. Trek concludes.",
+        distance: "0 km"
+      }
+    ],
+    includedServices: [
+      "Professional trek guide",
+      "Camping equipment",
+      "All meals during trek",
+      "First aid and oxygen support",
+      "Forest permits",
+      "Transportation from Chopta to Rishikesh"
+    ],
+    excludedServices: [
+      "Personal trekking gear",
+      "Travel insurance",
+      "Transportation to Sari village",
+      "Personal expenses",
+      "Porter charges",
+      "Any additional accommodation"
+    ],
+    upcomingDates: [
+      {
+        startDate: "2024-04-10",
+        endDate: "2024-04-14",
+        availableSpots: 12,
+        price: "₹14,999"
+      },
+      {
+        startDate: "2024-05-05",
+        endDate: "2024-05-09",
+        availableSpots: 8,
+        price: "₹14,999"
+      },
+      {
+        startDate: "2024-10-15",
+        endDate: "2024-10-19",
+        availableSpots: 10,
+        price: "₹14,999"
+      }
+    ]
   }
 ];
 

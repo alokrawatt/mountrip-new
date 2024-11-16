@@ -44,6 +44,20 @@ const packages = [
       "https://images.unsplash.com/photo-1606067000227-5a018fddf2b0?auto=format&fit=crop&q=80",
       "https://images.unsplash.com/photo-1589182373726-e4f658ab50f0?auto=format&fit=crop&q=80"
     ]
+  },
+  {
+    id: 4,
+    title: "Chandrashila via Deoria Lake",
+    description: "A scenic trek to the moon rock summit through pristine Deoria Lake and the spiritual town of Chopta to Chandrashila via Tungnath Temple.",
+    duration: "5 Days",
+    groupSize: "4-5 People",
+    difficulty: "Moderate",
+    price: "₹24,999",
+    images: [
+      "https://images.unsplash.com/photo-1522506209496-4536d9020ec4?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1547453255-b836af62eeee?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1465919292275-c60ba49da6ae?auto=format&fit=crop&q=80"
+    ]
   }
 ];
 
