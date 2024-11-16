@@ -49,7 +49,7 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
             <div className="space-y-3">
               <ContactInfo icon={<Phone className="h-5 w-5" />}>
-                +91 98765 43210
+                +91 95288 31078
               </ContactInfo>
               <ContactInfo icon={<Mail className="h-5 w-5" />}>
                 info@mountrip.in
