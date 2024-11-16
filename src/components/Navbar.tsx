@@ -35,7 +35,7 @@ export default function Navbar() {
           <div className="hidden md:flex items-center space-x-8">
             <NavLink href="#" isScrolled={isScrolled}>Home</NavLink>
             <NavLink href="#packages" isScrolled={isScrolled}>Packages</NavLink>
-            <NavLink href="#about" isScrolled={isScrolled}>About</NavLink>
+            <NavLink href="/about" isScrolled={isScrolled}>About</NavLink>
             <NavLink href="#contact" isScrolled={isScrolled}>Contact</NavLink>
             <button className={`px-6 py-2 rounded-full transition transform hover:scale-105 ${
               isScrolled 
@@ -67,6 +67,7 @@ export default function Navbar() {
             <MobileNavLink href="#packages">Packages</MobileNavLink>
             <MobileNavLink href="#about">About</MobileNavLink>
             <MobileNavLink href="#contact">Contact</MobileNavLink>
+            <Link to="/about" className={`text-lg ${isScrolled ? 'text-gray-900' : 'text-white'}`}>About Us</Link>
             <button className="w-full text-center px-6 py-3 bg-emerald-600 text-white rounded-full hover:bg-emerald-700 transition">
               Enquire Now
             </button>
