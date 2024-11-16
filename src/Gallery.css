@@ -1,0 +1,10 @@
+   /* src/pages/Gallery.css */
+   .gallery-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.instagram-media {
+    margin: 20px auto;
+    max-width: 500px;
+}

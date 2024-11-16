@@ -28,7 +28,7 @@ export default function Footer() {
             <ul className="space-y-2">
               <FooterLink href="#about">About Us</FooterLink>
               <FooterLink href="#packages">Our Packages</FooterLink>
-              <FooterLink href="#gallery">Gallery</FooterLink>
+              <FooterLink href="/gallery">Gallery</FooterLink>
               <FooterLink href="#testimonials">Testimonials</FooterLink>
             </ul>
           </div>
