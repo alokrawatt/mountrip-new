@@ -62,7 +62,7 @@ export default function PackageCard({ pkg }: PackageCardProps) {
             <span className="text-sm text-gray-600">{pkg.duration}</span>
           </div>
           <div className="flex items-center gap-2">
-            <Users className="w-5 h-5 text-gray-600" />
+            <Users className="w-4 h-5 text-gray-600" />
             <span className="text-sm text-gray-600">{pkg.groupSize}</span>
           </div>
           <div className="flex items-center gap-2">
