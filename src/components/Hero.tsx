@@ -28,7 +28,7 @@ export default function Hero() {
         poster="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80"
       >
         <source 
-          src="https://videos.pexels.com/video-files/19956919/19956919-sd_640_360_30fps.mp4"
+          src="https://videos.pexels.com/video-files/29421334/12668937_640_360_50fps.mp4"
           type="video/mp4" 
         />
         {/* Fallback for unsupported formats */}
