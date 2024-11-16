@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import logo from '/src/components/logo.png';
 
 export default function Navbar() {
@@ -22,7 +23,9 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <img src={logo} alt="Logo" className={`h-8 w-8 ${isScrolled ? 'text-emerald-600' : 'text-white'}`} />
+            <Link to="/">
+              <img src={logo} alt="Logo" className={`h-8 w-8 ${isScrolled ? 'text-emerald-600' : 'text-white'}`} />
+            </Link>
             <span className={`font-bold text-xl ${isScrolled ? 'text-gray-900' : 'text-white'}`}>
               MountTrip
             </span>
