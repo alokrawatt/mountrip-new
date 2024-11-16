@@ -19,9 +19,9 @@ function App() {
               <Packages />
             </>
           } />
-          <Route path="/about" element={<AboutUs />} />
+          <Route path="/about:/id" element={<AboutUs />} />
           <Route path="/package/:id" element={<PackageDetails />} />
-          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/gallery/:id" element={<Gallery />} />
         </Routes>
         <Footer />
       </main>
